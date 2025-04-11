@@ -1,0 +1,61 @@
+/* General styles for the header section */
+.header {
+  background-color: #ffede3;
+  background-image: url("/Users/alissaforde/alforde01.github.io/portfolio/public/images/arizona.JPG");
+  background-size: 80%;
+  background-repeat: no-repeat;
+  color: #ffede3;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative; /* Reference point for absolute positioning */
+  overflow: hidden; /* Prevent content from overflowing the section */
+}
+
+/* Style for the main title */
+.header-title {
+  font-family: "Barrio", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14vw; /* Use viewport width for font size */
+  margin: 0;
+  text-align: left;
+  position: absolute; /* Use absolute positioning */
+  top: 35%;
+  left: 10%;
+}
+
+/* Style for the subtitle */
+.header-subtitle {
+  font-family: "bello-pro", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4rem;
+  margin-top: 10px;
+  position: absolute;
+  top: 20%;
+  left: 5%;
+  transform: rotate(-5deg);
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .header-title {
+    font-size: 8vw; /* Increase font size for smaller screens */
+    letter-spacing: 1vw; /* Adjust letter spacing */
+    bottom: 10%; /* Move the title further up */
+    left: 10%; /* Add more space from the left edge */
+  }
+}
+
+@media (max-width: 480px) {
+  .header-title {
+    font-size: 10vw; /* Further increase font size for very small screens */
+    letter-spacing: 1.5vw; /* Adjust letter spacing */
+    bottom: 15%; /* Move the title further up */
+    left: 15%; /* Add more space from the left edge */
+  }
+}
