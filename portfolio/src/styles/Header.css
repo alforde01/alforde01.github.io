@@ -1,44 +1,96 @@
 /* General styles for the header section */
 .header {
-  background-color: #ffede3;
   background-image: url("/Users/alissaforde/alforde01.github.io/portfolio/public/images/arizona.JPG");
   background-size: 80%;
   background-repeat: no-repeat;
-  color: #ffede3;
+  display: grid; /* Use CSS Grid to split the section */
+  grid-template-columns: 80% 20%; /* West-side takes 80%, Navbar takes 20% */
   height: 100vh;
-  text-align: center;
-  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   position: relative; /* Reference point for absolute positioning */
-  overflow: hidden; /* Prevent content from overflowing the section */
+  overflow: hidden;
 }
 
-/* Style for the main title */
 .header-title {
   font-family: "Barrio", system-ui;
   font-weight: 400;
   font-style: normal;
-  font-size: 14vw; /* Use viewport width for font size */
+  font-size: 10vw; /* Use viewport width for font size */
   margin: 0;
   text-align: left;
   position: absolute; /* Use absolute positioning */
-  top: 35%;
-  left: 10%;
+  top: 10px; /* Align to the top with some spacing */
+  left: 10px; /* Align to the left with some spacing */
+  color: #ffede3; /* Ensure the text is visible */
 }
 
-/* Style for the subtitle */
 .header-subtitle {
   font-family: "bello-pro", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 4rem;
-  margin-top: 10px;
+  font-size: 2rem;
+  color: #ffede3;
   position: absolute;
-  top: 20%;
-  left: 5%;
-  transform: rotate(-5deg);
+}
+
+/* Navbar styles */
+nav {
+  background-color: #ffede3; /* Plain background color */
+  height: 100%; /* Full height of the header */
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  margin: 10px 0;
+}
+
+nav a {
+  color: black; /* Dark text for contrast */
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #012714; /* Highlight color on hover */
+}
+
+.marquee {
+  height: 50px; /* Fixed height for the marquee container */
+  overflow: hidden; /* Hide overflowing text */
+  position: relative; /* Position the container */
+  background: #ffede3; /* Background color */
+  color: #333; /* Text color */
+  border: 1px solid #4a4a4a; /* Optional border */
+}
+
+.marquee-content {
+  display: inline-block; /* Ensure the text behaves like a single line */
+  position: absolute; /* Position the text inside the container */
+  white-space: nowrap; /* Prevent the text from wrapping */
+  transform: translateX(100%); /* Start off-screen to the right */
+  animation: scroll-left 90s linear infinite; /* Smooth scrolling animation */
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(100%); /* Start off-screen to the right */
+  }
+  100% {
+    transform: translateX(-100%); /* Move off-screen to the left */
+  }
 }
 
 /* Media queries for responsiveness */
