@@ -3,13 +3,13 @@
   background-image: url("/Users/alissaforde/alforde01.github.io/portfolio/public/images/arizona.JPG");
   background-size: 80%;
   background-repeat: no-repeat;
-  display: grid; /* Use CSS Grid to split the section */
+  display: grid;
   grid-template-columns: 80% 20%; /* West-side takes 80%, Navbar takes 20% */
   height: 100vh;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  position: relative; /* Reference point for absolute positioning */
+  position: relative;
   overflow: hidden;
 }
 
@@ -17,18 +17,18 @@
   font-family: "Barrio", system-ui;
   font-weight: 400;
   font-style: normal;
-  font-size: 10vw; /* Use viewport width for font size */
+  font-size: 10vw;
   margin: 0;
   text-align: left;
-  position: absolute; /* Use absolute positioning */
-  top: 10px; /* Align to the top with some spacing */
-  left: 10px; /* Align to the left with some spacing */
-  color: #ffede3; /* Ensure the text is visible */
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: #ffede3;
 }
 
 .header-subtitle {
-  font-family: "bello-pro", sans-serif;
-  font-weight: 400;
+  font-family: "fort", sans-serif;
+  font-weight: 300;
   font-style: normal;
   font-size: 2rem;
   color: #ffede3;
@@ -37,7 +37,7 @@
 
 /* Navbar styles */
 nav {
-  background-color: #ffede3; /* Plain background color */
+  background-color: #ffede3;
   height: 100%; /* Full height of the header */
   color: white;
   display: flex;
@@ -57,31 +57,35 @@ nav li {
 }
 
 nav a {
-  color: black; /* Dark text for contrast */
+  color: black;
   text-decoration: none;
   font-size: 1.2rem;
   transition: color 0.3s ease;
 }
 
 nav a:hover {
-  color: #012714; /* Highlight color on hover */
+  text-decoration: underline;
+  color: #6b7782;
 }
 
 .marquee {
-  height: 50px; /* Fixed height for the marquee container */
-  overflow: hidden; /* Hide overflowing text */
-  position: relative; /* Position the container */
-  background: #ffede3; /* Background color */
-  color: #333; /* Text color */
-  border: 1px solid #4a4a4a; /* Optional border */
+  height: 40px;
+  overflow: hidden;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #ffede3;
+  color: black;
+  border: 1px solid #4a4a4a;
+  display: flex;
+  align-items: center;
 }
 
 .marquee-content {
-  display: inline-block; /* Ensure the text behaves like a single line */
-  position: absolute; /* Position the text inside the container */
-  white-space: nowrap; /* Prevent the text from wrapping */
-  transform: translateX(100%); /* Start off-screen to the right */
-  animation: scroll-left 90s linear infinite; /* Smooth scrolling animation */
+  display: inline-block;
+  white-space: nowrap;
+  animation: scroll-left 80s linear infinite;
 }
 
 @keyframes scroll-left {
@@ -105,9 +109,9 @@ nav a:hover {
 
 @media (max-width: 480px) {
   .header-title {
-    font-size: 10vw; /* Further increase font size for very small screens */
-    letter-spacing: 1.5vw; /* Adjust letter spacing */
-    bottom: 15%; /* Move the title further up */
-    left: 15%; /* Add more space from the left edge */
+    font-size: 10vw;
+    letter-spacing: 1.5vw;
+    bottom: 15%;
+    left: 15%;
   }
 }

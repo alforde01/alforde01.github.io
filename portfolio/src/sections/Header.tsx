@@ -12,6 +12,11 @@ const Header = () => {
             Welcome! Feel free to look through my page and learn a little bit
             more about me. I built this website to showcase my skills and
             projects. First time using TypeScript and it was really fun! I hope
+            you enjoy your stay! &nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            {/* Add spacing between duplicates */}
+            Welcome! Feel free to look through my page and learn a little bit
+            more about me. I built this website to showcase my skills and
+            projects. First time using TypeScript and it was really fun! I hope
             you enjoy your stay!
           </div>
         </div>
