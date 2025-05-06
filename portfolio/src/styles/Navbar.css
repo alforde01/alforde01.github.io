@@ -1,0 +1,32 @@
+.navbar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px 10px;
+  z-index: 10;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin: 0 10px;
+}
+
+.navbar a:hover {
+  color: #ffede3;
+  text-decoration: wavy underline;
+}
+
+.navbar a:active {
+  color: white;
+  text-decoration: wavy underline;
+}
+
+.navbar a.active {
+  color: #ffede3;
+  text-decoration: wavy underline;
+}

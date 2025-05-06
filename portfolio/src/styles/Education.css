@@ -1,0 +1,69 @@
+.education {
+  height: 100vh;
+  background-color: #fff8dc;
+  color: #ffede3;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.education h2 {
+  margin: 0;
+  font-family: "Pacifico", sans-serif;
+  font-size: 3vw;
+  color: #333;
+  text-align: center;
+  letter-spacing: 0.2rem;
+  opacity: 0;
+  animation: fade-in 1.5s ease-in-out 0.5s forwards;
+}
+
+.education-text {
+  color: #333;
+  padding: 0 2rem;
+  max-width: 55vh;
+  text-align: center;
+  transform: translateX(100%);
+  opacity: 0;
+  animation: slide-and-fade-in-text 1.5s ease-in-out 1.2s forwards;
+}
+
+.education a {
+  color: #333;
+  text-decoration: none;
+}
+
+.education a:hover {
+  color: #575757;
+}
+
+.education a:active {
+  color: #333;
+}
+
+.education a.active {
+  color: black;
+  text-decoration: wavy underline;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

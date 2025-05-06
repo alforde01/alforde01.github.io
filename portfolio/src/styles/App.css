@@ -1,3 +1,9 @@
+body {
+  background-color: #fff8dc;
+  overflow: hidden;
+  height: 100vh;
+}
+
 .App {
   text-align: center;
 }
@@ -34,5 +40,20 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+/* App.css */
+
+.route-container {
+  animation: fade-in 0.5s ease-in-out;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }
