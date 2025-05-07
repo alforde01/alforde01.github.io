@@ -18,7 +18,7 @@ const Extracurriculars = () => {
         <div>
           <h3>Central Florida Community Arts</h3>
           <p>Member since January 2020</p>
-          <p>2nd Violin</p>
+          <p>2nd Violinist</p>
         </div>
       </div>
 

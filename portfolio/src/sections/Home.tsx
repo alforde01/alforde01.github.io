@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <section className="header">
       <div className="image-container">
-        <img src="/images/desert.JPG" alt="Saguaro National Park" />
+        <img src="/images/desert.jpg" alt="Saguaro National Park" />
       </div>
       <div className="bottom-area">
         <h1 className="header-title">Alissa Forde's</h1>

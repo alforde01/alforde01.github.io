@@ -68,7 +68,7 @@ const Work = () => {
       description:
         "Led a team through facilitating stand-ups, coordinating task assignments, and ensuring progress visibility while developing a personal contact manager web application for structured contact management.",
       link: "https://github.com/Ahal122/COP4331C_Contact_Manager?tab=readme-ov-file",
-      image: "/images/hellohub.JPEG",
+      image: "/images/hellohub.jpeg",
     },
   ];
 

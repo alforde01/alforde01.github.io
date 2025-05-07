@@ -7,7 +7,7 @@ const Skills = () => {
   return (
     <section className="skills">
       <div className="skill-image">
-        <img src="/images/grayclouds.JPG" alt="Saguaro National Park" />
+        <img src="/images/grayclouds.jpg" alt="Saguaro National Park" />
       </div>
       <h2>Skills</h2>
       <div className="skills-box">
