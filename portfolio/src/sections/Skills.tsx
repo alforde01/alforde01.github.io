@@ -15,7 +15,6 @@ const Skills = () => {
           <h3>Programming Languages and Tools</h3>
           <div>
             <p>TypeScript / JavaScript</p>
-            <p>Node.js</p>
             <p>Java</p>
             <p>Python</p>
             <p>C-Base Programming</p>
