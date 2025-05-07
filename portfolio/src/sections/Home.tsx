@@ -12,9 +12,19 @@ const Header = () => {
       <div className="bottom-area">
         <h1 className="header-title">Alissa Forde's</h1>
         <h3 className="header-subtitle">
-          {" "}
-          . . . . . . . . . . . . . . Portfolio
+          . . . . . . . . . . . . . .{" "}
+          <a
+            href="https://github.com/alforde01/alforde01.github.io/tree/main/portfolio"
+            className="portfolio-link"
+          >
+            Portfolio
+          </a>
         </h3>
+        <img
+          src="/images/icons8-click.png"
+          alt="Arrow pointing to Portfolio"
+          className="click-image"
+        />
       </div>
     </section>
   );
