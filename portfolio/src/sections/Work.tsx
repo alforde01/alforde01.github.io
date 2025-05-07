@@ -30,7 +30,7 @@ const Work = () => {
       date: "Summer 2025",
       role: "Incoming Research Intern",
       description:
-        "I will be reading and learning about research project, making / understanding and executing the research plan, and regularly reporting / presenting research progress.",
+        "Selected for a competitive research program focused on computer science and engineering. •	Will read about the research project, developing or executing the research plan, and regularly report and present research progress throughout the program.",
       link: "https://eng.famu.fsu.edu/ime/research-experience-for-undergraduates",
       image: "/images/famufsucollegeofengineering.png",
     },
