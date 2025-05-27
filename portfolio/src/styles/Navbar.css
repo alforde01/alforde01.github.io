@@ -30,3 +30,45 @@
   color: #ffede3;
   text-decoration: wavy underline;
 }
+
+/* Responsive Desktop Styles */
+@media (min-width: 1400px) {
+  .navbar a {
+    font-size: 1.4rem;
+  }
+}
+
+@media (min-width: 1600px) {
+  .navbar a {
+    font-size: 1.8rem;
+  }
+}
+
+/* Responsive Mobile Styles */
+@media (max-width: 700px) {
+  .navbar a {
+    font-size: 1rem;
+    display: none;
+  }
+  .nav-links.open a {
+    display: block; /* Show links when menu is open */
+    margin: 10px 0;
+  }
+  .hamburger {
+    display: flex;
+  }
+}
+
+.hamburger {
+  display: none; /* Hide hamburger by default */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 101;
+  position: relative;
+}

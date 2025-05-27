@@ -15,13 +15,27 @@
 }
 
 .right-section {
+  position: relative;
+  overflow: hidden;
+}
+
+.right-section::after {
+  content: "";
+  position: absolute;
+  inset: 0;
   background-image: url("/public/images/cactus.jpg");
   background-position: top 10px right 10px;
   background-size: 160%;
-  height: 100%;
-  width: 100%;
   background-repeat: no-repeat;
-  box-sizing: border-box;
+  opacity: 0;
+  animation: fade-in-bg 1.5s ease-in-out forwards;
+  z-index: 1;
+}
+
+@keyframes fade-in-bg {
+  to {
+    opacity: 1;
+  }
 }
 
 .extracurriculars h2 {

@@ -9,7 +9,6 @@
 .image-container {
   position: relative;
   width: calc(100% - 20px);
-  height: calc(100% - 20px);
   overflow: hidden;
   padding: 10px;
   background-color: #fff8dc;
@@ -109,4 +108,23 @@
 .portfolio-link:hover {
   color: purple;
   text-decoration: underline wavy;
+}
+
+@media (max-width: 440px) {
+  .header-title {
+    font-size: 3rem;
+    position: relative;
+    top: -2rem;
+    padding-left: 0;
+  }
+  .image-container {
+    height: calc(100% - 50px);
+  }
+  .bottom-area h3 {
+    position: relative;
+  }
+  .click-image {
+    position: relative;
+    top: -1rem;
+  }
 }

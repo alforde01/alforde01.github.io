@@ -30,18 +30,9 @@ const Work = () => {
       date: "Summer 2025",
       role: "Incoming Research Intern",
       description:
-        "Selected for a competitive research program focused on computer science and engineering. •	Will read about the research project, developing or executing the research plan, and regularly report and present research progress throughout the program.",
+        "Engaging with a research project pertaining to Artificial Intelligence’s application for Geometry within 3D printing. •	Will develop or execute a research plan and regularly report and present research progress throughout the program.",
       link: "https://eng.famu.fsu.edu/ime/research-experience-for-undergraduates",
       image: "/images/famufsucollegeofengineering.png",
-    },
-    {
-      title: "Disney Internship",
-      date: "Spring 2024",
-      role: "Show Control Intern",
-      description:
-        "Software Engineer apart of Walt Disney World's the Global Engineering & Technology - Show Controls Team.",
-      link: "https://example.com/disney",
-      image: "/images/Walt-Disney-World-Logo.png",
     },
     {
       title: "UCF Capstone Project: Nemours Children's Hospital",
@@ -51,6 +42,15 @@ const Work = () => {
         "Collaborated on a team to analyze data and predict patient readmission likelihood, aiming to improve patient flow and operational efficiency.",
       link: "https://noahf909.github.io/final-presentation/",
       image: "/images/Nemours_logo_Vertical_Condensed .png",
+    },
+    {
+      title: "Disney Internship",
+      date: "Spring 2024",
+      role: "Show Control Intern",
+      description:
+        "Software Engineer apart of Walt Disney World's the Global Engineering & Technology - Show Controls Team.",
+      link: "https://example.com/disney",
+      image: "/images/Walt-Disney-World-Logo.png",
     },
     {
       title: "Culinary Compass",
