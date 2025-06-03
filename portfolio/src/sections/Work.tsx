@@ -30,7 +30,7 @@ const Work = () => {
       date: "Summer 2025",
       role: "Incoming Research Intern",
       description:
-        "Engaging with a research project pertaining to Artificial Intelligence’s application for Geometry within 3D printing. •	Will develop or execute a research plan and regularly report and present research progress throughout the program.",
+        "Exploring how Graph Neural Networks (GNNs) can be applied to analyze and classify CAD models with the goal to improve automated recognition and interpretation of 3D models to support more efficient and intelligent 3D printing workflows. •	Will develop or execute a research plan and regularly report and present research progress throughout the program.",
       link: "https://eng.famu.fsu.edu/ime/research-experience-for-undergraduates",
       image: "/images/famufsucollegeofengineering.png",
     },
