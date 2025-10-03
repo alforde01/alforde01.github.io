@@ -26,11 +26,20 @@ const Work = () => {
   };
   const projects = [
     {
+      title: "Florida A&M University",
+      date: "Fall 2025 - Present",
+      role: "Graduate Assistant",
+      description:
+        "Developing a predictive graph neural network (GNN) framework that analyzes data across mental health datasets to identify mental health status (stress, anxiety, depression), predict symptom progression, and uncover contributing factors.•	Planned research will explore early intervention research by evaluating the GNN’s accuracy against other ML methods and investigating approaches to generating personalized feedback and actionable strategies for college students and counselors based in model insights.",
+      link: "https://www.famu.edu/",
+      image: "/images/famu.png",
+    },
+    {
       title: "Research Experience for Undergraduates (REU)",
       date: "Summer 2025",
-      role: "Incoming Research Intern",
+      role: "Research Intern",
       description:
-        "Exploring how Graph Neural Networks (GNNs) can be applied to analyze and classify CAD models with the goal to improve automated recognition and interpretation of 3D models to support more efficient and intelligent 3D printing workflows. •	Will develop or execute a research plan and regularly report and present research progress throughout the program.",
+        "Explored how graph neural networks can be applied to analyze and classify CAD models with the goal to improve automated recognition and interpretation of 3D models to support more efficient and intelligent 3D printing workflows. •	Implemented a research plan and regularly reported and presented research progress.",
       link: "https://eng.famu.fsu.edu/ime/research-experience-for-undergraduates",
       image: "/images/famufsucollegeofengineering.png",
     },
@@ -46,7 +55,7 @@ const Work = () => {
     {
       title: "Disney Internship",
       date: "Spring 2024",
-      role: "Show Control Intern",
+      role: "Computer Science Intern",
       description:
         "Software Engineer apart of Walt Disney World's the Global Engineering & Technology - Show Controls Team.",
       link: "https://example.com/disney",

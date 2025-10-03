@@ -35,9 +35,9 @@ const About = () => {
             I am a student who is always eager to learn and grow. As people say,
             education is a lifelong journey, and I am committed to expanding my
             knowledge and skills in the field of technology and design. I am
-            currently set to start pursuing a masters degree in computer science
-            starting in Fall 2025, will continue to expand upon my knowledge in
-            fields like machine learning, software engineering, and hardware.
+            currently pursuing a masters degree in computer science, will
+            continue to expand upon my knowledge in fields like machine
+            learning, software engineering, and hardware applications.
           </p>
         </div>
       </div>

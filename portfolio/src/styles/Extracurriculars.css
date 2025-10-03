@@ -1,6 +1,6 @@
 .extracurriculars {
   display: grid;
-  grid-template-columns: 60% 40%;
+  grid-template-columns: 55% 45%;
   height: 100vh;
   margin: 0;
   padding: 0;
@@ -17,12 +17,13 @@
 .right-section {
   position: relative;
   overflow: hidden;
+  z-index: 0;
 }
 
 .right-section::after {
   content: "";
   position: absolute;
-  inset: 0;
+  inset: 5px;
   background-image: url("/public/images/cactus.jpg");
   background-position: top 10px right 10px;
   background-size: 160%;

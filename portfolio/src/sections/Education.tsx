@@ -10,7 +10,7 @@ const Education = () => {
       <div>
         <div className="education-text">
           <h3>M.S. in Computer Science</h3>
-          <p>University of Central Florida</p>
+          <p>Florida A&M University </p>
           <p>Expected Graduation: May 2027</p>
           <h3>B.S. in Computer Science, Minor Studio Art</h3>
           <p>University of Central Florida</p>
