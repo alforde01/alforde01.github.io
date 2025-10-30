@@ -17,18 +17,19 @@ const Skills = () => {
             <p>TypeScript / JavaScript</p>
             <p>Java</p>
             <p>Python</p>
-            <p>C-Base Programming</p>
+            <p>C-Based Programming</p>
             <p>Bash</p>
             <p>PHP</p>
+            <p>HTML</p>
+            <p>CSS</p>
             <p>XAML</p>
             <p>SQL</p>
           </div>
         </div>
         <div className="software">
-          <h3>Software, Apps, and Frameworks</h3>
+          <h3>Software, Libraries, and Frameworks</h3>
           <div>
             <p>Visual Studio Code</p>
-            <p>Microsoft Office Suite</p>
             <p>MongoDB</p>
             <p>GraphWorx64</p>
             <p>AWS</p>
@@ -36,7 +37,8 @@ const Skills = () => {
             <p>Git</p>
             <p>Node.js</p>
             <p>React</p>
-            <p>Jupyter Notebook</p>
+            <p>PyTorch</p>
+            <p>Scikit-learn</p>
           </div>
         </div>
         <div className="design">
