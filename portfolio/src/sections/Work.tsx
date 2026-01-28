@@ -30,7 +30,7 @@ const Work = () => {
       date: "Fall 2025 - Present",
       role: "Graduate Assistant",
       description:
-        "Solve complex problems by applying concepts in computer science to multidisciplinary research projects. •	Developed a predictive framework that analyzes data across mental health datasets to predict mental health scores and uncover contributing factors. Explored early intervention research by evaluating the framework’s accuracy against other ML methods and investigating approaches for generating personalized feedback and actionable strategies for college students based on model insights.",
+        "Solving complex problems by applying concepts in computer science to multidisciplinary research projects. •	Developed a predictive framework that analyzes data across mental health datasets to predict mental health scores and uncover contributing factors. Explored early intervention research by evaluating the framework’s accuracy against other ML methods and investigating approaches for generating personalized feedback and actionable strategies for college students based on model insights.",
       link: "https://www.famu.edu/",
       image: "/images/famu.png",
     },
