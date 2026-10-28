@@ -26,6 +26,15 @@ const Work = () => {
   };
   const projects = [
     {
+      title: "The National Museum of African American History and Culture",
+      date: "Summer 2026 - Present",
+      role: "National Speech Machine Learning Research Intern",
+      description:
+        " Prototyping and evaluating speech-to-text and natural language processing model integration to identify potential guest experience and search accessibility deployments across the museum, in accordance with museum goals and protocols.",
+      link: "https://nmaahc.si.edu/",
+      image: "/images/NMAAHC_vert_Smithsonian_black.png",
+    },
+    {
       title: "Florida A&M University",
       date: "Fall 2025 - Present",
       role: "Graduate Assistant",
@@ -53,7 +62,7 @@ const Work = () => {
       image: "/images/Nemours_logo_Vertical_Condensed .png",
     },
     {
-      title: "Disney Internship",
+      title: "Walt Disney World Parks & Resorts",
       date: "Spring 2024",
       role: "Computer Science Intern",
       description:
@@ -99,6 +108,8 @@ const Work = () => {
             <p>{project.description}</p>
             {project.title === "Disney Internship" ? (
               <button onClick={openModal}>View More</button>
+            ) : project.title === "Florida A&M University" ? (
+              <button onClick={openModal}>View More</button>
             ) : (
               <a href={project.link} target="_blank" rel="noopener noreferrer">
                 View More
@@ -107,7 +118,7 @@ const Work = () => {
           </div>
         ))}
       </Slider>
-
+      {/* Modal for Disney Internship */}
       {isModalOpen && (
         <div className="modal" onClick={handleOverlayClick}>
           <div className="modal-content">
@@ -131,6 +142,29 @@ const Work = () => {
               (HMI), maintaining operator usability and efficiency, while
               assisting in reconnecting show control components and supporting
               system testing.
+            </p>
+            <button className="close" onClick={closeModal}>
+              &times;
+            </button>
+            <span className="close" onClick={closeModal}></span>
+          </div>
+        </div>
+      )}
+
+      {/* Modal for FAMU Assistantship */}
+      {activeModal === "famu" && (
+        <div className="modal" onClick={handleOverlayClick}>
+          <div className="modal-content">
+            <h2>Florida A&M University Research Assistantship</h2>
+            <p>
+              Researching and developing a predictive framework for drug-target
+              interaction prediction to accelerate in-lab research workflows.
+            </p>
+            <p>
+              Developed a framework to predict mental health scores and uncover
+              contributing factors. Explored early intervention research by
+              investigating approaches for generating personalized feedback
+              strategies for college students based on model insights.
             </p>
             <button className="close" onClick={closeModal}>
               &times;

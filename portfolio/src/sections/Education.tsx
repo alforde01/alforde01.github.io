@@ -9,6 +9,12 @@ const Education = () => {
       <h2>Education</h2>
       <div>
         <div className="education-text">
+          <p>
+            <em>
+              * Applying to EE Ph.D. programs for Fall 2027 (GA Tech, Howard,
+              NCAT, FAMU)
+            </em>
+          </p>
           <h3>M.S. in Computer Science</h3>
           <p>Florida A&M University </p>
           <p>Expected Graduation: May 2027</p>

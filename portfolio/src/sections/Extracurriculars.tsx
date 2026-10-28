@@ -8,6 +8,10 @@ const Extracurriculars = () => {
       <div className="left-section">
         <h2>Extracurriculars</h2>
         <div>
+          <h3>FAMU Graduate Student Association</h3>
+          <p>Parliamentarian (2026-2027)</p>
+        </div>
+        <div>
           <h3>The National Society of Black Engineers</h3>
           <p>FAMU-FSU Chapter Member (Fall 2025 - Present)</p>
           <p>UCF Chapter Member (Fall 2022 - June 2025)</p>
